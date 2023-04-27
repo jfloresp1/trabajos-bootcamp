@@ -6,11 +6,14 @@
   <title>Petshop</title>
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">PETSCAMP</a>
+    <a class="navbar-brand" href="/trabajo petshop/index.html">
+      <img class="icono" src="/trabajo petshop/recursos/ICONO.jpg" alt="ICONO">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,27 +35,30 @@
     </div>
   </nav>
 
-  <header class="jumbotron">
-    <h1 class="display-4">Bienvenido a PETSCAMP</h1>
-    <h2 class="lead">La mejor tienda para tus mascotas</h2>
-    <a class="btn btn-primary btn-lg" href="/trabajo petshop/productos.html" role="button">Ver productos</a>
+  <header class="contact-box">
+    <h1 class="display-4">CONTACTO</h1>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="5" cols="30"></textarea><br><br>
+      <button type="submit">Enviar</button>
+    </form>
   </header>
 
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2>Nuestros productos</h2>
-        <p>Contamos con una amplia variedad de productos para tus mascotas, desde alimentos hasta accesorios.</p>
-        <a class="btn btn-secondary" href="/trabajo petshop/productos.html" role="button">Ver más</a>
+        <hr>Mail: ventas@petscam.cl</hr>
+        <hr>Whatsapp: +56999999999</hr>
+        <hr>Teléfono: +56999999999</hr>
+        <hr>Servicio de atención: Lunes a Sábado
+        09:00 a 18:00 hrs.</hr>
       </div>
-      <div class="col-md-6">
-        <h2>Nuestros servicios</h2>
-        <p>Además de productos, ofrecemos diversos servicios para el cuidado y bienestar de tus mascotas.</p>
-        <a class="btn btn-secondary" href="/trabajo petshop/servicios.html" role="button">Ver más </a>
-      </div>
-    </div>
   </div>
-
+<br><br><br><br>
 
   <footer class="bg-light">
     <div class="container">
