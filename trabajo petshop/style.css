@@ -13,19 +13,24 @@
   }
   
   .jumbotron {
-    background-color: #17a2b8;
-    color: #fff;
+    background-image: url(/trabajo\ petshop/recursos/principal.jfif);
+    background-size: 90% auto;
+    background-repeat:round;
+    color: #0d0983;
+    font-weight: bolder;
     padding: 5rem;
-    margin-bottom: 0;
+    margin-bottom: 10;
   }
   
   .jumbotron h1 {
     font-size: 4rem;
+    font-weight: bolder;
     margin-bottom: 1.5rem;
   }
   
   .jumbotron p {
     font-size: 2rem;
+    font-weight: bolder;
     margin-bottom: 2rem;
   }
   
