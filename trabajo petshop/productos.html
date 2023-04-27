@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Petshop</title>
-  <!-- Enlace a Bootstrap CSS -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-  <!-- Barra de navegación -->
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">PETSCAMP</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,38 +31,40 @@
       </ul>
     </div>
   </nav>
-
-  <!-- Encabezado de la página -->
   <header class="jumbotron">
     <h1 class="display-4">Bienvenido a PETSCAMP</h1>
     <p class="lead">La mejor tienda para tus mascotas</p>
-    <a class="btn btn-primary btn-lg" href="/trabajo petshop/productos.html" role="button">Ver productos</a>
   </header>
 
-  <!-- Contenido principal -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Nuestros productos</h2>
-        <p>Contamos con una amplia variedad de productos para tus mascotas, desde alimentos hasta accesorios.</p>
-        <a class="btn btn-secondary" href="/trabajo petshop/productos.html" role="button">Ver más</a>
-      </div>
-      <div class="col-md-6">
-        <h2>Nuestros servicios</h2>
-        <p>Además de productos, ofrecemos diversos servicios para el cuidado y bienestar de tus mascotas.</p>
-        <a class="btn btn-secondary" href="/trabajo petshop/servicios.html" role="button">Ver más </a>
-      </div>
+  <div class="container mt-5">
+    <h1>Productos para Mascotas</h1>
+    <ul class="list-group mt-3" id="lista-productos">
+        <li class="list-group-item">Comida para Perros <button class="btn btn-primary btn-sm float-right" onclick="agregarAlCarrito('Comida para Perros'); mostrarCarrito();">Agregar al Carrito</button></li>
+        <li class="list-group-item">Comida para Gatos <button class="btn btn-primary btn-sm float-right" onclick="agregarAlCarrito('Comida para Gatos'); mostrarCarrito();">Agregar al Carrito</button></li>
+        <li class="list-group-item">Juguete para Perros <button class="btn btn-primary btn-sm float-right" onclick="agregarAlCarrito('Juguete para Perros'); mostrarCarrito();">Agregar al Carrito</button></li>
+        <li class="list-group-item">Juguete para Gatos <button class="btn btn-primary btn-sm float-right" onclick="agregarAlCarrito('Juguete para Gatos'); mostrarCarrito();">Agregar al Carrito</button></li>
+        <li class="list-group-item">Collar para Perros <button class="btn btn-primary btn-sm float-right" onclick="agregarAlCarrito('Collar para Perros'); mostrarCarrito();">Agregar al Carrito</button></li>
+        <li class="list-group-item">Collar para Gatos <button class="btn btn-primary btn-sm float-right" onclick="agregarAlCarrito('Collar para Gatos'); mostrarCarrito();">Agregar al Carrito</button></li>
+    </ul>
+    <div class="mt-3">
+        <h2>Carrito de Compras</h2>
+        <ul class="list-group" id="carrito"></ul>
     </div>
-  </div>
+</div>
 
-  <!-- Pie de página -->
+<script src="/trabajo petshop/carrito.js"></script>
+
+</body>
+</body>
+</html>
+
+
   <footer class="bg-light">
     <div class="container">
       <p class="text-center">&copy; 2023 Petshop. Todos los derechos reservados.</p>
     </div>
   </footer>
 
-  <!-- Enlace a Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
