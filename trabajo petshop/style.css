@@ -1,0 +1,61 @@
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1rem 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  .jumbotron {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 5rem;
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .jumbotron p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .container {
+    padding: 3rem 0;
+  }
+  
+  .container h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+
+  footer {
+    background-image: url(/trabajo\ petshop/recursos/R.png);
+    background-size: cover;
+    padding: 2rem 0;
+    color: #4c02d6;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+  }
