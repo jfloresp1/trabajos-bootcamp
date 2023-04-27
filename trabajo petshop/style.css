@@ -14,8 +14,8 @@
   
   .jumbotron {
     background-image: url(/trabajo\ petshop/recursos/principal.jpg);
-    background-size: 70%;
-    background-repeat:round;
+    background-size:cover;
+    background-repeat: no-repeat;
     color: #0d0983;
     font-weight: bolder;
     padding: 5rem;
@@ -23,7 +23,7 @@
   }
   
   .jumbotron h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bolder;
     margin-bottom: 1.5rem;
   }
