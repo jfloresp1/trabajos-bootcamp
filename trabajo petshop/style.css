@@ -71,7 +71,6 @@
 
 .contact-box {
     background-image:  url(/trabajo\ petshop/recursos/paws.jpg) ;
-    opacity 80%;
     color: #0d0983;
     font-weight: bolder;
     padding: 5rem;
@@ -88,3 +87,7 @@
     border-color: #6c757d;
   }
   
+  .card-img-top {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
