@@ -1,0 +1,28 @@
+
+.bg-body {
+    background-color: rgb(39, 176, 234);
+    
+}
+
+.titulo {
+    color: rgb(242, 247, 248);
+    font-style: normal;
+}
+
+#totalp1, #totalp2, #total {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#totalp1, #totalp2 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    color: rgb(242, 247, 248);
+    font-style: normal;
+}
+.results {
+    color: rgb(242, 247, 248);
+    font-style: normal;
+}

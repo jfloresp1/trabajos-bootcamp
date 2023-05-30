@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Estilos del header */
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    }
+    
+    header h1 {
+    font-size: 2rem;
+    }
+    
+    header .nav-link {
+    color: #ffffff !important;
+    }
+    
+    /* Estilos del main */
+    #presentacion h2 {
+    font-size: 3rem;
+    }
+    
+    #menu h2 {
+    font-size: 2.5rem;
+    }
+    
+    .precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+    
+    .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    }
+    
+    .btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    }
+    
+    .btn-primary:hover {
+    background-color: #f4511e;
+    border-color: #f4511e;
+    }
+    
+    /* Estilos del footer */
+    footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    }
+    
+    .footer-link {
+    color: #ffffff !important;
+    text-decoration: none;
+    }
+    
+    .footer-link:hover {
+    color: #ff5722 !important;
+    text-decoration: underline;
+    }
