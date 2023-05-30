@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+.dropdown {
+  width: fit-content;
+}
+
 .container {
   margin: 0 auto;
   color: #D8DADF;
