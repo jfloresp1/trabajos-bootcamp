@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presupuesto App</title>
+<link rel="stylesheet" href="/Trabajo presupuestoapp/style.css">
+</head>
+<body>
+  <h1>Presupuesto App</h1>
+  
+  <div class="green-section">
+    <h2>Ingresa tu presupuesto</h2>
+    <input type="number" id="budgetInput" placeholder="Ingrese su presupuesto">
+    <button id="calculateButton">Calcular</button>
+  </div>
+  
+  <div class="red-section">
+    <h2>Gastos</h2>
+    <input type="text" id="expenseNameInput" placeholder="Nombre del gasto">
+    <input type="number" id="expenseAmountInput" placeholder="Cantidad del gasto">
+    <button id="addExpenseButton">Añadir Gasto</button>
+  </div>
+  
+  <div class="summary">
+    <h2>Resumen</h2>
+    <div id="budget">Presupuesto: 0</div>
+    <div id="expenses">Gastos: 0</div>
+    <div id="balance">Saldo: 0</div>
+  </div>
+  
+  <div class="expense-list">
+    <h2>Lista de Gastos</h2>
+    <ul id="expenseItems"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
