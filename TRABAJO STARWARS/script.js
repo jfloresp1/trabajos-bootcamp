@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const sections = [
         { start: 1, end: 5, title: " 🚀 En esta sección encontrarás información de los personajes más populares de las películas" },
-        { start: 6, end: 11, title: "🚀 En esta sección encontrarás información de los personajes secundarios más importantes" },
-        { start: 12, end: 16, title: "🚀 En esta sección encontrarás información de otros personajes significativos" }
+        { start: 6, end: 10, title: "🚀 En esta sección encontrarás información de los personajes secundarios más importantes" },
+        { start: 11, end: 15, title: "🚀 En esta sección encontrarás información de otros personajes significativos" }
       ];
       
     const characterList = document.getElementById("character-list");
@@ -33,13 +33,11 @@ document.addEventListener("DOMContentLoaded", function() {
       sectionElement.appendChild(characterContainer);
       characterContainer.appendChild(characterContent);
       characterList.appendChild(sectionElement);
-  
-      // Evento de mouseenter para expandir la sección
+
       sectionHeader.addEventListener("mouseenter", function() {
         characterContainer.classList.add("show");
       });
-  
-      // Evento de mouseleave para colapsar la sección
+
       sectionHeader.addEventListener("mouseleave", function() {
         characterContainer.classList.remove("show");
       });
