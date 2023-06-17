@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const sections = [
-        { start: 1, end: 5, title: "1-5", description: "En esta sección encontrarás información de los personajes más populares de las películas" },
-        { start: 6, end: 11, title: "6-11", description: "En esta sección encontrarás información de los personajes secundarios más importantes" },
-        { start: 12, end: 17, title: "12-17", description: "En esta sección encontrarás información de otros personajes significativos" }
+        { start: 1, end: 5, title: " 🚀 En esta sección encontrarás información de los personajes más populares de las películas" },
+        { start: 6, end: 11, title: "🚀 En esta sección encontrarás información de los personajes secundarios más importantes" },
+        { start: 12, end: 16, title: "🚀 En esta sección encontrarás información de otros personajes significativos" }
       ];
       
     const characterList = document.getElementById("character-list");

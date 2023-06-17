@@ -1,19 +1,27 @@
 body {
+  background-image: url('https://getwallpapers.com/wallpaper/full/b/2/7/1233893-free-star-wars-1080p-hd-wallpaper-1920x1080.jpg');
+  background-size: cover;
+  background-position: center;
   background-color: #000;
   color: #ffd700;
-  font-family: 'Star Jedi', sans-serif;
-}
+  font-family: sans-serif;
+  }
 
 .container {
   padding: 20px;
+  border: 4px solid #ffdf00;
 }
 
 h1 {
   text-align: center;
-  font-size: 12px;
+  font-size: 42px;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 30px;
+}
+
+img {
+  width: 30%;
 }
 
 .accordion {
@@ -46,7 +54,7 @@ h1 {
 .card-body {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 10px;
-  border-radius: 75px;
+  border-radius: 5px;
   margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +71,7 @@ h1 {
   padding: 10px;
   background-color: #000000;
   border: 4px solid #ffdf00;
-  border-radius: 35px;
+  border-radius: 5px;
 }
 
 .character h4 {
